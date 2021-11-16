@@ -5,7 +5,7 @@ clean:
 	find . -type f -name '*.log' -delete
 
 system-packages:
-	sudo apt install python-pip -y
+	sudo apt install python3-pip -y
 
 python-packages:
 	pip install -r requirements.txt
